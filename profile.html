@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Deba Das | AI & Neuro-AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* ---------- RESET ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Georgia", serif;
+    }
+
+    body {
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    /* ---------- BACKGROUND CANVAS ---------- */
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    /* ---------- LAYOUT ---------- */
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 60px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #ddd;
+      max-width: 700px;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    ul li {
+      margin: 8px 0;
+      font-size: 1rem;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      transition: 0.3s;
+    }
+
+    a:hover {
+      opacity: 0.7;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      margin-bottom: 80px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    /* ---------- PROFILE IMAGE ---------- */
+    .profile-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(255,255,255,0.6);
+    }
+
+    /* ---------- SOCIAL ---------- */
+    .social a {
+      margin-right: 20px;
+      font-size: 1rem;
+    }
+
+    /* ---------- PROJECTS ---------- */
+    .project {
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      margin-top: 100px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="profile-wrapper">
+      <img 
+        src="mypic.jpg"
+        alt="Debaditya Das"
+        class="profile-pic"
+      />
+
+      <div>
+        <h1>Debaditya Das</h1>
+        <div class="subtitle">
+          Computer Science Student · AI | Neuro-AI & Reinforcement Learning Research Enthusiast
+        </div>
+      </div>
+    </div>
+
+    <p>
+      Hi, I’m Debaditya Das from India, currently pursuing a B.Sc. in Computer Science at Scottish Church College, University of Calcutta. My primary interests lie in Neuro-inspired AI and Reinforcement Learning, with a focus on computational models of learning, decision-making, and adaptation. I aim to develop impactful AI systems that contribute to both scientific progress and humanity. Inspired by Alan Turing and John von Neumann, I approach research with a strong emphasis on foundational and first-principles thinking.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <strong>Schooling:</strong> Faltakata High School  
+        <br>
+        Grade: A
+      </li>
+
+      <li>
+        <strong>Undergraduate:</strong> B.S. in Computer Science  
+        <br>
+        Scottish Church College, University of Calcutta  
+        <br>
+        <span style="color:#aaa;">2024 – 2028</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- INTERESTS -->
+  <section>
+    <h2>Interests</h2>
+    <ul>
+      <li>Artificial Intelligence</li>
+      <li>Neuro-AI & Brain-Inspired Systems</li>
+      <li>Reinforcement Learning</li>
+      <li>Mathematical Computation</li>
+      <li>Machine Learning</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <p>
+        <strong>LMLYZER:</strong> Open-source language model benchmarking tool focused on memory usage and time complexity analysis.
+        <br>
+        <a href="https://github.com/DEBADAS001KERNEL/LMLYZER">GitHub</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <p>
+        <strong>MACHINE_LEARNING_PROJECTS:</strong> End-to-end machine learning implementations covering theory and practice.
+        <br>
+        <a href="https://github.com/DEBADAS001KERNEL/END_TO_END_MACHINE_LEARNING_PROJECTS">GitHub</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <p>
+        <strong>Python Projects:</strong> A collection of Python projects demonstrating core programming concepts.
+        <br>
+        <a href="https://github.com/DEBADAS001KERNEL/Python_Basic_Projects">GitHub</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <p>
+        <strong>AI_MATHEMATICS:</strong> Mathematical foundations for AI including gradients, loss functions, and neural models.
+        <br>
+        <a href="https://github.com/DEBADAS001KERNEL/AI-_MATHMETICS">GitHub</a>
+      </p>
+    </div>
+
+    <p>
+      I frequently submit new AI, Machine Learning, Neuro-AI, and Reinforcement Learning projects on GitHub. Feel free to explore and review my ongoing work.
+    </p>
+  </section>
+
+  <!-- SOCIAL -->
+  <section>
+    <h2>Connect</h2>
+    <div class="social">
+      <a href="https://github.com/DEBADAS001KERNEL" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/debaditya-das-27a957267/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <div class="footer">
+    © 2026 · Thank You . 
+  </div>
+
+</div>
+
+<script>
+  /* ---------- PARTICLE / NEURON BACKGROUND ---------- */
+  const canvas = document.getElementById("bg");
+  const ctx = canvas.getContext("2d");
+
+  let w, h;
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  window.addEventListener("resize", resize);
+  resize();
+
+  const particles = [];
+  const particleCount = 120;
+
+  for (let i = 0; i < particleCount; i++) {
+    particles.push({
+      x: Math.random() * w,
+      y: Math.random() * h,
+      vx: (Math.random() - 0.5) * 0.5,
+      vy: (Math.random() - 0.5) * 0.5
+    });
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, w, h);
+
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+
+      if (p.x < 0 || p.x > w) p.vx *= -1;
+      if (p.y < 0 || p.y > h) p.vy *= -1;
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, 1.5, 0, Math.PI * 2);
+      ctx.fillStyle = "#fff";
+      ctx.fill();
+    });
+
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+
+        if (dist < 120) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = "rgba(255,255,255,0.1)";
+          ctx.stroke();
+        }
+      }
+    }
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>
+
+</body>
+</html>
